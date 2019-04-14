@@ -15,7 +15,7 @@
 	<description>Example Project fpr Spring Boot</description>
 
 	<properties>
-	    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+	  <!--  <spring-boot.repackage.skip>true</spring-boot.repackage.skip>-->
 		<java.version>8</java.version>
 	</properties>
 
@@ -51,7 +51,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			<executions>
+			<!--<executions>
                     <execution>
                         <id>build-info-goal</id>
                         <goals>
@@ -60,7 +60,7 @@
                         <configuration>
                             <additionalProperties>
                                 <java.version>${java.version}</java.version>
-                                <some.custom.prop>${some.custom.prop}</some.custom.prop>
+
                             </additionalProperties>
                         </configuration>
                     </execution>
@@ -76,12 +76,12 @@
                             <goal>stop</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions>-->
             </plugin>
-			<plugin>
+			<!--<plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
-            </plugin>
+            </plugin>-->
 		</plugins>
 	</build>
 
