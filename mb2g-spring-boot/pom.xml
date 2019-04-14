@@ -15,6 +15,7 @@
 	<description>Example Project fpr Spring Boot</description>
 
 	<properties>
+	    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 		<java.version>8</java.version>
 	</properties>
 
